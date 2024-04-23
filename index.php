@@ -28,7 +28,7 @@ App::plugin('tobimori/role-blueprints', [
 	'blueprints' => A::map($registry, function ($roles) {
 		return function () use ($roles) {
 			foreach ($roles as $role => $file) {
-				if (App::instance()->user()->role()->name() === $role) {
+				if (App::instance()?->user()?->role()->name() === $role) {
 					return Yaml::read($file);
 				}
 			}
