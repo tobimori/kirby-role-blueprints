@@ -40,3 +40,13 @@ tabs:
 ```
 
 In this case, the admin tab will be appended after the seo tab.
+
+### Support the project
+
+> [!NOTE]
+> This plugin is provided free of charge & published under the permissive MIT License. If you use it in a commercial project, please consider sponsoring me on GitHub to support further development and continued maintenance of my Kirby plugins.
+
+### License
+
+[MIT License](./LICENSE)
+Copyright © 2024 Tobias Möritz
