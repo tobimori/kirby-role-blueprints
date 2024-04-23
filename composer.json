@@ -1,0 +1,31 @@
+{
+  "name": "tobimori/kirby-role-blueprints",
+  "description": "Load different blueprints based on user roles in Kirby CMS",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://plugins.andkindness.com/role-blueprints",
+  "authors": [
+    {
+      "name": "Tobias Möritz",
+      "email": "tobias@moeritz.io"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.0",
+    "getkirby/composer-installer": "^1.2.1"
+  },
+  "scripts": {
+    "dist": "composer install --no-dev --optimize-autoloader",
+    "fix": "php-cs-fixer fix"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "extra": {
+    "kirby-cms-path": false
+  }
+}
