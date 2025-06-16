@@ -1,5 +1,7 @@
 # Kirby Role Blueprints
 
+> STILL works for Kirby 4 and Kirby 5!
+
 Simplified & automatic loading of different blueprints based on user roles in Kirby CMS.
 
 Simply attach the role name as suffix to the blueprint file name and the plugin will load the corresponding blueprint.
